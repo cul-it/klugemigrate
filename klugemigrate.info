@@ -1,0 +1,17 @@
+name = "Migrate Kluge"
+description = "Module to migrate filemaker mueller-kluge content to Drupal 7"
+package = "Cornell University Library"
+core = 7.x
+dependencies[] = migrate
+dependencies[] = migrate_extras
+dependencies[] = field
+dependencies[] = number
+dependencies[] = text
+dependencies[] = options
+dependencies[] = taxonomy
+dependencies[] = date
+dependencies[] = querypath
+
+files[] = klugemigrate_video.inc
+files[] = klugemigrate_segment.inc
+files[] = klugemigrate_transcript.inc
